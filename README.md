@@ -1,27 +1,30 @@
-# Java-DSA-Journey
-Daily Learning and DSA Practice Code.
-# 🦋 Butterfly Star Pattern in Java
+# 💻 Java & DSA Learning Journey
 
-A console-based Java program designed to generate a symmetric Butterfly Star Pattern using nested `for` loops. This project focuses on building core algorithmic logic, managing loop boundaries, and handling dynamic spacing in patterns.
+Welcome to my personal repository where I track my daily progress in Java programming and Data Structures & Algorithms (DSA). This repository serves as a timeline of my coding consistency, problem-solving growth, and core concept implementations.
 
-## ✨ Pattern Output (For N = 4)
+## 📂 Repository Structure & Topics Covered
 
-```text
-*      *
-**    **
-***  ***
-********
-********
-***  ***
-**    **
-*      *
-*      *
+### 1. 🔺 Pattern Printing Problems
+- Implemented nested loop logics to visualize complex structures in the console.
+- **Key Programs:** Butterfly Pattern, Diamond Pattern, Number Triangles, and Star Pyramids.
 
-🚀 Features & Logic Implemented :
-Symmetric Design: Divided into two distinct sections (Upper Half and Lower Half) to simplify nested loop conditions.
-Dynamic Spacing: Uses inner loops to dynamically calculate and print spaces between stars: 2 * (N - i).
-Logic Building: Demonstrates control flow management using primary and secondary for loops.
+### 2. 🔄 Recursion & Advanced Logic
+- Mastering the art of function self-invocation and stack memory visualization.
+- **Key Programs:** Tower of Hanoi simulation, Fibonacci Series, and Factorial calculations.
 
-🛠️ Tech Stack & Key Concepts
-Language: Java ☕
-Core Concepts: Nested Loops, Variable Scope, Conditional Logic, and Console Formatting.
+### 3. 🔢 Arrays (Upcoming & Ongoing)
+- Storing and manipulating data collections using 1D and 2D arrays.
+- Working on linear search, binary search, and basic array operations.
+
+## 🛠️ Tech Stack & Tools Used
+- **Language:** Java ☕
+- **IDE:** Visual Studio Code (VS Code) 💻
+- **Version Control:** Git & GitHub (Tracking daily consistency) 🟢
+
+## 🚀 How to Run the Programs
+1. Clone this repository to your local system.
+2. Navigate to the specific topic folder (e.g., `cd Java-Practice-Codes`).
+3. Compile and run any Java file using your terminal:
+   ```bash
+   java FileName.java
+   ```
