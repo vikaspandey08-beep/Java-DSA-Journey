@@ -12,6 +12,8 @@
       System.out.println(" Transfer disk " + n + " from "+ src + " to "+ des);
       towerofHanoi(n-1,help,src,des);
     }
+
+    // Main Function:
     public static void main(String[] args){
         Scanner sc =  new Scanner(System.in);
         int n  = 3;
