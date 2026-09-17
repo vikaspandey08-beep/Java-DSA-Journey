@@ -73,6 +73,7 @@ public class Project{
                 System.out.println("Enter the amount you want to deposit:");
                 double amount = sc.nextDouble();
 
+                
                 if(amount>0){
                     balance += amount;
                     history += "Deposited:"+ amount +"\n";
@@ -105,6 +106,6 @@ public class Project{
                 System.out.println(history);
             }
             System.out.println("Current Balance:"+" "+ balance);
-        sc.close();
+      sc.close();
         }
 }
