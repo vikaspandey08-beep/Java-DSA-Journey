@@ -24,6 +24,7 @@ public class Sorting{
           }
         }
         printArray(arr);
+        sc.close();
  }
 }
 
