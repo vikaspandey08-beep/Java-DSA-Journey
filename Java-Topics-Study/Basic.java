@@ -4,6 +4,8 @@
 import java.util.Scanner;
 
 public class Basic{
+
+    // Main Method :
     public static void main(String [] args){
        Scanner sc = new Scanner(System.in);
        int positivecount = 0;
@@ -11,9 +13,13 @@ public class Basic{
        int zerocount = 0;
        char choice = 0;
 
+    //    Looping Statements :
+
        do{
         System.out.println("Enter a Number:");
         int num = sc.nextInt();
+
+//     Conditional Statements:
 
         if(num>0){
             positivecount ++;
@@ -26,6 +32,8 @@ public class Basic{
         System.out.println("Do you want to enter more numbers?(y/n):");
         choice = sc.next().charAt(0);
        } while(choice == 'y' || choice == 'Y');
+
+    // Print Statements :
 
        System.out.println("\nFinal counts");
        System.out.println("Positive numbers:"+" " +positivecount);
