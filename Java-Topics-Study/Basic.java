@@ -1,0 +1,37 @@
+// 7) WRITE A PROGRAM TO ENTER THE NUMBERS TILL THE USER WANTS AND RETURN 
+// THE NO OF COUNTS OF POSITIVE ,NEGATIVE ,AND ZEROS ENTERED :
+
+import java.util.Scanner;
+
+public class Basic{
+    public static void main(String [] args){
+       Scanner sc = new Scanner(System.in);
+       int positivecount = 0;
+       int negativecount = 0;
+       int zerocount = 0;
+       char choice = 0;
+
+       do{
+        System.out.println("Enter a Number:");
+        int num = sc.nextInt();
+
+        if(num>0){
+            positivecount ++;
+        } else if (num<0){
+            negativecount ++;
+        }else{
+            zerocount ++;
+        }
+
+        System.out.println("Do you want to enter more numbers?(y/n):");
+        choice = sc.next().charAt(0);
+       } while(choice == 'y' || choice == 'Y');
+
+       System.out.println("\nFinal counts");
+       System.out.println("Positive numbers:"+" " +positivecount);
+       System.out.println("Negative numbers:"+" "+negativecount);
+       System.out.println("Zero count:"+" "+zerocount);
+    
+       sc.close();
+    }
+}
