@@ -24,9 +24,9 @@ public class Basic{
 //    Conditional Statements:
 
         if(num>0){
-            positivecount ++;
+            positivecount ++; // increases positive numbers count.
         } else if (num<0){
-            negativecount ++;
+            negativecount ++; // increases negative numbers count.
         }else{
             zerocount ++;
         }
