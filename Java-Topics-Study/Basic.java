@@ -28,7 +28,7 @@ public class Basic{
         } else if (num<0){
             negativecount ++; // increases negative numbers count.
         }else{
-            zerocount ++;
+            zerocount ++;  // increases zeros count.
         }
 
         System.out.println("Do you want to enter more numbers?(y/n):");
