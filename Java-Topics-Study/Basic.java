@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Basic{
 
-    // Main Method :
+//    Main Method :
     public static void main(String [] args){
        Scanner sc = new Scanner(System.in);
        int positivecount = 0;
