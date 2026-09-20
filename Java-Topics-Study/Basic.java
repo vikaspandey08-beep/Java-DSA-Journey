@@ -15,13 +15,13 @@ public class Basic{
        int zerocount = 0;
        char choice = 0;
 
-    //    Looping Statements :
+//    Looping Statements :
 
        do{
         System.out.println("Enter a Number:");
         int num = sc.nextInt();
 
-//     Conditional Statements:
+//    Conditional Statements:
 
         if(num>0){
             positivecount ++;
@@ -35,7 +35,7 @@ public class Basic{
         choice = sc.next().charAt(0);
        } while(choice == 'y' || choice == 'Y');
 
-    // Print Statements :
+//    Print Statements :
 
        System.out.println("\nFinal counts");
        System.out.println("Positive numbers:"+" " +positivecount);
