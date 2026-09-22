@@ -31,7 +31,17 @@ public class Switch {
             case 8 : System.out.println("AUGUST");
             break;
 
+            case 9 : System.out.println("SEPTEMBER");
+            break;
+
+            case 10 : System.out.println("OCTOBER");
+            break;
             
+            case 11: System.out.println("NOVEMBER");
+            break;
+
+            case 12 : System.out.println("DECEMBER");
+            break;
 
             default : System.out.println("INVALID REQUEST");
         }
