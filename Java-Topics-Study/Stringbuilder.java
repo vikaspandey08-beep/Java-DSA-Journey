@@ -1,6 +1,8 @@
 // StringBuilder in java:
 //SB in java: 
 
+// Importing Scanner class :
+
 import java.util.Scanner;
 
 public class Stringbuilder {
