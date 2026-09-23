@@ -1,3 +1,4 @@
+// Practice Program :
 // Print sum of first n natural numbers :
 
 // Importing Scanner Class :
