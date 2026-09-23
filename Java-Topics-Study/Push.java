@@ -1,8 +1,9 @@
 // Practice Program :
+
 // Print sum of first n natural numbers :
 
 // Importing Scanner Class :
-import java.util.Scanner;
+import java.util.*;
 
 public class Push {
     
@@ -18,7 +19,7 @@ public class Push {
                 System.out.println("Your value of i in each level of stack is given below :");
                 System.out.println(i);
         }
-        
+
 // Main Method :
         public static void main(String[] args){
                 Scanner sc = new Scanner(System.in);
