@@ -1,5 +1,6 @@
 // Print sum of first n natural numbers :
 
+// Importing Scanner Class :
 import java.util.Scanner;
 
 public class Push {
@@ -19,5 +20,5 @@ public class Push {
                 System.out.println("Your entered sum of natural numbers is :");
                 printSum(1,5,0);
        sc.close();
-            }
+ }
 }
