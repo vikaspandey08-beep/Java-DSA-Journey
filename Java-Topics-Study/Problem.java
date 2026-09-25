@@ -1,5 +1,6 @@
 // Print a string in reverse in normal form:
 
+// Importing Scanner class :
  import java.util.Scanner;
 
 public class Problem{ 
@@ -14,6 +15,7 @@ public class Problem{
         return reversed.toString();
       }
     
+      // Main Method :
      public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String original = "Tony Stark";
