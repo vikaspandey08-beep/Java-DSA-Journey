@@ -15,7 +15,7 @@ public class Problem{
         return reversed.toString();
       }
     
-      // Main Method :
+      // Main method :
      public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String original = "Tony Stark";
