@@ -10,6 +10,8 @@ public class Sorting{
              }
               System.out.println();
       }
+
+      //Main Method : 
       public static void main(String[] args){
          Scanner sc = new Scanner(System.in);
          int arr[] = {7,8,3,1,2};
