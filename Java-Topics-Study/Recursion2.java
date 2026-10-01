@@ -1,5 +1,6 @@
 //Print the x raise to the power n (Stack height = n) :
 
+// Import Scanner CLass :
 import java.util.Scanner;
 
 public class Recursion2{
