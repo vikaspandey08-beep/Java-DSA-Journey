@@ -1,5 +1,6 @@
 // Print x raise to the power n (Stack height = logn) :
 
+// Importing Scanner Class :
 import java.util.Scanner;
 
 public class Recursion3{
