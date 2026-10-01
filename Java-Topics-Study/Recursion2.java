@@ -15,6 +15,7 @@ public class Recursion2{
        int xpow = x* xPowern;
        return xpow;
     }
+    // Main Method :
     public static void main(String[] args){
         Scanner sc =  new Scanner(System.in);
         int x = 2;
