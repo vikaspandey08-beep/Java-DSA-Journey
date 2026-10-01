@@ -16,6 +16,7 @@ public class Recursion3{
         return calcPower(x,n/2) * calcPower(x,n/2) * x;
        }
     }
+    // Main Method :
     public static void main(String[] args){
         Scanner sc =  new Scanner(System.in);
         int x = 2;
