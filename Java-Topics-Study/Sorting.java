@@ -1,6 +1,7 @@
 // Sorting in java :
 // Bubble sort :
 
+// Importing Scanner Class:
 import java.util.Scanner;
 
 public class Sorting{
