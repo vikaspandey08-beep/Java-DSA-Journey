@@ -1,5 +1,6 @@
 // Tower of Hanoi :
     
+// Importing Scanner Class :
  import java.util.Scanner;
 
  public class Hanoitower {
