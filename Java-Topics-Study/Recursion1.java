@@ -1,6 +1,7 @@
 // Recursion and its problems  :
 // Series from 5 to 1 :
 
+// Importing Scanner class :
 import java.util.Scanner;
 
 public class Recursion1{
