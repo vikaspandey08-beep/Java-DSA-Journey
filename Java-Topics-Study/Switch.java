@@ -1,3 +1,4 @@
+// Importing Scanner class :
 import java.util.Scanner;
 
 public class Switch {
