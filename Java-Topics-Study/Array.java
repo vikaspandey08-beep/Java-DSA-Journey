@@ -1,5 +1,6 @@
 // ARRAYS:
 
+// Importing Scanner Class :
 import java.util.Scanner;
 
 public class Array {
